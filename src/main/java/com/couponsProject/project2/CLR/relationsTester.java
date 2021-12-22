@@ -23,9 +23,9 @@ public class relationsTester implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        createData.createCompany();
+//        createData.createCompany();
 //        createData.createCoupons();
-        createData.createCustomers();
+//        createData.createCustomers();
 //        createData.createCouponsPurchases();
 
 //        System.out.println(companyRepo.findById(1).getCoupons());
