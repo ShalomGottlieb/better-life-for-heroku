@@ -24,7 +24,7 @@ public class relationsTester implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 //        createData.createCompany();
-//        createData.createCoupons();
+        createData.createCoupons();
 //        createData.createCustomers();
 //        createData.createCouponsPurchases();
 
