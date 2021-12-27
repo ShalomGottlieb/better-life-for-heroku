@@ -80,7 +80,7 @@ public class dataForRelationsTester {
                 .endDate(Date.valueOf("2022-1-1"))
                 .price(1500)
                 .amount(10)
-                .image("https://backendlessappcontent.com/A27F4009-7EAA-5BC6-FFF3-6D154177E700/C384113B-FEC3-4C7E-BCE1-814C15B1B7C9/files/hotel.png")
+                .image("https://firebasestorage.googleapis.com/v0/b/better-life-coupons.appspot.com/o/hotel.png?alt=media&token=f2ceeeb5-4bac-45c4-a21a-3dfd4a5aa918")
                 .build();
         Coupon coupon3 = Coupon.builder()
                 .title("mazgan")
