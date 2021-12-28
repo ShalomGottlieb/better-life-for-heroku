@@ -78,7 +78,7 @@ public class dataForRelationsTester {
                 .description("1+1 night")
                 .startDate(Date.valueOf(LocalDate.now()))
                 .endDate(Date.valueOf("2022-1-1"))
-                .price(1500)
+                .price(150)
                 .amount(10)
                 .image("https://firebasestorage.googleapis.com/v0/b/better-life-coupons.appspot.com/o/hotel.png?alt=media&token=f2ceeeb5-4bac-45c4-a21a-3dfd4a5aa918")
                 .build();
