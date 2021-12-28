@@ -1,5 +1,6 @@
 package com.couponsProject.project2.Controller;
 
+import com.couponsProject.project2.CLR.dataForRelationsTester;
 import com.couponsProject.project2.Service.GuestService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -18,9 +19,12 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class GuestServiceController {
     private final GuestService guestService;
+    private final dataForRelationsTester createData;
+
 
     @PostMapping("coupons/get")
     public ResponseEntity<?> getCoupons() {
+        createData.createMokData();
         return new ResponseEntity<>(guestService.getCoupons(), HttpStatus.OK);
     }
 

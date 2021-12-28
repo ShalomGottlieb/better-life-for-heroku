@@ -196,4 +196,13 @@ public class dataForRelationsTester {
         }
     }
 
+    public void createMokData (){
+        if (!companyRepo.existsCompanyByEmail("email@email.com")) {
+            createCompany();
+            createCoupons();
+            createCustomers();
+            createCouponsPurchases();
+        }
+    }
+
 }
