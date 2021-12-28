@@ -70,7 +70,7 @@ public class dataForRelationsTester {
                 .endDate(Date.valueOf("2022-9-1"))
                 .price(75)
                 .amount(100)
-                .image("https://backendlessappcontent.com/A27F4009-7EAA-5BC6-FFF3-6D154177E700/C384113B-FEC3-4C7E-BCE1-814C15B1B7C9/files/pizza%21.png")
+                .image("https://firebasestorage.googleapis.com/v0/b/better-life-coupons.appspot.com/o/pizza!.png?alt=media&token=aa0af642-24db-46cf-9915-03a269c6a5ca")
                 .build();
         Coupon coupon2 = Coupon.builder()
                 .title("Zimmer")
